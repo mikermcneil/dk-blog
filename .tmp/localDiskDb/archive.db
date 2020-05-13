@@ -1,0 +1,6 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"id":1,"createdAt":1589332851050,"fromModel":"blogpost","originalRecord":{"createdAt":1589332796680,"updatedAt":1589332796680,"id":19,"title":"Yoga 101","detail":"An article on yoga basics.","category":"yoga"},"originalRecordId":19,"_id":1}
+{"id":2,"createdAt":1589389647889,"fromModel":"blogpost","originalRecord":{"createdAt":1589389620554,"updatedAt":1589389629821,"id":22,"title":" sophie is awesome","detail":"thi sis a sophie ","category":"general"},"originalRecordId":22,"_id":2}
+{"id":3,"createdAt":1589392897023,"fromModel":"blogpost","originalRecord":{"createdAt":1589332820401,"updatedAt":1589332820401,"id":21,"title":"Yoga 101","detail":"An article on yoga basics.","category":"yoga"},"originalRecordId":21,"_id":3}
+{"id":4,"createdAt":1589393034961,"fromModel":"blogpost","originalRecord":{"createdAt":1589392885070,"updatedAt":1589392893346,"id":22,"title":" noahs [post","detail":"this is it ","category":"general"},"originalRecordId":22,"_id":4}
+{"originalRecord":{"createdAt":1589395037803,"updatedAt":1589395041065,"id":21,"title":"test ","detail":" test","category":"general"},"originalRecordId":21,"fromModel":"blogpost","id":5,"createdAt":1589395043265,"_id":5}

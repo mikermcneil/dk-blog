@@ -1,0 +1,38 @@
+
+
+<div class="container">
+  <h1>Blog Posts 
+    <form method="POST" action="/api/v1/blog-posts/new">
+    <button class="btn btn-primary" type="submit"> New Post</button></h1>
+   </form>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Title</th>
+        <th>Action</th>
+      </tr>
+    </thead> 
+    <% for (let blogPost of blogPosts) { %>
+    <tbody>
+      <tr>
+        <td><%= blogPost.category %></td>
+        <td><a href="/posts/<%= blogPost.id %>"><%= blogPost.title %></a></td>
+       
+        <td><form method="POST" action="/api/v1/blog-posts/<%= blogPost.id %>/destroy">
+          <button class="btn btn-danger" type="submit">delete</button>
+        </form>
+        </td>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
+</div>
+    
+     
+ 
+    
+ 
+  
+
+</div>

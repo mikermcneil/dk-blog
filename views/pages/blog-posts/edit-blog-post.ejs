@@ -1,0 +1,24 @@
+
+<div class="container p-3 my-3 bg-primary text-white">
+<h1>Edit This Blog </h1>
+  <div class="form-group">
+ 
+  <form method="POST" action="/api/v1/blog-posts/<%= blogPost.id %>">
+    <label for="title">Blog Title</label>
+    <input name="title" type="text" class="form-control" value="<%= blogPost.title %>"/>
+    <label for="title">Blog Body</label>
+    <textarea class="form-control" rows=10 name="detail"><%= blogPost.detail %></textarea>
+   <br>
+    <span> <center><button class="btn" type="submit">Save</button></center></span>
+  </form>
+  </div>
+</div>
+
+
+
+ <!-- <select name="category">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select> -->
