@@ -14,13 +14,10 @@ a [Sails v1](https://sailsjs.com) application
 
 ### Version info
 
-This app was originally generated on Tue May 12 2020 12:14:04 GMT-0500 (Central Daylight Time) using Sails v1.2.3.
+This Repo represents my journey learning web development in Sails.js.   It started when I discovered Sails and met https://github.com/mikermcneilMcNeill.   The project is being built in Sails, and hosted on Heroku and will serve as a diary of my progress as a software developer.   
 
-<!-- Internally, Sails used [`sails-generate@1.16.13`](https://github.com/balderdashy/sails-generate/tree/v1.16.13/lib/core-generators/new). -->
+Version .1 - May 13,2020
+- 3 fields ( title, details, category)
+- Add, Delete, Modify
 
-
-
-<!--
-Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
--->
 
