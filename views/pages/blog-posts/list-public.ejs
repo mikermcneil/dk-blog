@@ -9,8 +9,8 @@
         <img class="card-img-top" src="<%= blogPost.imageName %>"" alt="Card image" style="width:100%">
         <div class="card-body">
           <h4 class="card-title"><%= blogPost.title %></h4>
-          <p class="card-text"><%= blogPost.detail %></p>
-          <a href="#" class="btn btn-primary">Read Blog</a>
+          <p class="card-text"><%- blogPost.detail -%></p>
+          <a href="/api/v1/blog-posts/view/<%= blogPost.id %>"  class="btn btn-primary">Read Blog</a>
         </div>
       </div>
       <% } %>

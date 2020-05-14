@@ -25,6 +25,7 @@ module.exports.routes = {
 
   'POST /api/v1/blog-posts/:id':          { action: 'blog-posts/update-one-blog-post' },
   'POST /api/v1/blog-posts/:id/destroy':  { action: 'blog-posts/destroy-one-blog-post' },
-  'POST /api/v1/blog-posts/new' :         { action: 'blog-posts/view-new-blog-post'}
+  'POST /api/v1/blog-posts/new' :         { action: 'blog-posts/view-new-blog-post'},
+  'GET /api/v1/blog-posts/view/:id' :    { action: 'blog-posts/view-one-post-public'}
 
 };
