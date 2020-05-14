@@ -17,6 +17,10 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
+  // By default, every action requires being logged in
+  '*': 'is-logged-in',
+
+  // Poke a hole in our authentication for public accessible things
+  'blog-posts-public/*': true,
 
 };
