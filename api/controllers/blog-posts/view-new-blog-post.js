@@ -18,7 +18,7 @@ module.exports = {
 
   fn: async function () {
 
-    let newBlog = await BlogPost.create({title: " ", detail: " ", category: "general"}).fetch();
+    let newBlog = await BlogPost.create({title: " ", detail: " ", category: "general", imagename: " "}).fetch();
     
     return {
       newBlog

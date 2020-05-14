@@ -10,7 +10,8 @@ module.exports = {
   inputs: {
     id: { type: 'number', required: true },
     title: { type: 'string', required: true },
-    detail: { type: 'string', required: true }
+    detail: { type: 'string', required: true },
+    imagename: { type: 'string', required: true }
   },
 
 
@@ -24,12 +25,13 @@ module.exports = {
   },
 
 
-  fn: async function ({ id, title, detail }) {
+  fn: async function ({ id, title, detail, imagename }) {
 
     await BlogPost.updateOne({ id: id })
     .set({
       title: title,
       detail: detail,
+      imageName: imagename,
     });
 
     throw {redirect: '/posts'};

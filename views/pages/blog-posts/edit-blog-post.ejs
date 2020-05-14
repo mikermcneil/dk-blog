@@ -8,7 +8,9 @@
     <input name="title" type="text" class="form-control" value="<%= blogPost.title %>"/>
     <label for="title">Blog Body</label>
     <textarea class="form-control" rows=10 name="detail"><%= blogPost.detail %></textarea>
-   <br>
+    <label for="imagename">Image Name(full path) </label>
+    <input name="imagename" type="text" class="form-control" value="<%= blogPost.imageName %>"/>
+    <br>
     <span> <center><button class="btn" type="submit">Save</button></center></span>
   </form>
   </div>

@@ -28,6 +28,12 @@ module.exports = {
       isIn: ['yoga','pilates','general'],
     },
 
+    imageName: {
+      type: 'string',
+      required: false,
+    },
+
+
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
     //  ╚═╝╩ ╩╚═╝╚═╝═╩╝╚═╝

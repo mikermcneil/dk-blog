@@ -1,6 +1,2 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
-{"createdAt":1589332796680,"updatedAt":1589392883472,"id":18,"title":"Introducing Stretch","detail":"What is Stretch all about?","category":"general","_id":18}
-{"createdAt":1589332820401,"updatedAt":1589332820401,"id":20,"title":"Introducing Stretch","detail":"What is Stretch all about?","category":"general","_id":20}
-{"title":" ","detail":" ","category":"general","createdAt":1589395037803,"updatedAt":1589395037803,"id":21,"_id":21}
-{"title":"test ","detail":" test","category":"general","createdAt":1589395037803,"updatedAt":1589395041065,"id":21,"_id":21}
-{"$$deleted":true,"_id":21}
+{"imagename":" ","createdAt":1589408669623,"updatedAt":1589408746270,"id":26,"title":" david's first blog","detail":"Lorem ipsum Lorem This is a blog about writing a daily diary about writing code\r\nLorem ipsum Lorem This is a blog about writing a daily diary about writing code","category":"general","imageName":"images/dk-blog-image-may13.jpg","_id":26}

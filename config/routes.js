@@ -19,7 +19,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'GET /': { view: 'pages/homepage' },
+  'GET /':      { action: 'blog-posts/view-blog-posts-public' },
   'GET /posts': { action: 'blog-posts/view-blog-posts' },
   'GET /posts/:id': { action: 'blog-posts/view-edit-blog-post' },
 
